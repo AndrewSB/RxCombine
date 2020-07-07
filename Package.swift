@@ -10,6 +10,7 @@ let package = Package(
     products: [
         .library(
             name: "RxCombine",
+            type: .dynamic,
             targets: ["RxCombine"]),
     ],
     dependencies: [
